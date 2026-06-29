@@ -1,0 +1,36 @@
+# ─── Datos sensibles ──────────────────────────────────────────────────────────
+# Contiene usuarios registrados con contraseñas en texto plano
+backend/users.json
+
+# Variables de entorno (secretos, API keys, etc.)
+.env
+.env.local
+.env.*.local
+.env.production
+
+# ─── Dependencias ─────────────────────────────────────────────────────────────
+node_modules/
+
+# ─── Herramientas de desarrollo (configuración local) ─────────────────────────
+.claude/settings.local.json
+
+# ─── Artefactos de build ──────────────────────────────────────────────────────
+dist/
+build/
+.cache/
+
+# ─── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ─── Sistema operativo ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Editores ─────────────────────────────────────────────────────────────────
+*.swp
+*.swo
+*~

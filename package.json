@@ -1,0 +1,10 @@
+{
+  "name": "amazon-clone",
+  "version": "1.0.0",
+  "description": "Amazon clone - vanilla JS",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test tests/validateLogin.test.js tests/money.test.js tests/filterProducts.test.js tests/pagination.test.js tests/validateRegister.test.js"
+  }
+}

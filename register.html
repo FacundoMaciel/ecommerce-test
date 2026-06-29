@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Amazon - Create Account</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/shared/general.css">
+    <link rel="stylesheet" href="styles/pages/login.css">
+  </head>
+  <body>
+    <div class="login-page">
+      <a href="index.html">
+        <img class="login-logo" src="images/amazon-logo.png" alt="Amazon">
+      </a>
+
+      <div class="login-container">
+        <h1 class="login-title">Create account</h1>
+
+        <form class="js-register-form">
+          <label class="login-label" for="name">Your name</label>
+          <input
+            class="login-input js-name"
+            type="text"
+            id="name"
+            placeholder="First and last name"
+            required
+          >
+
+          <label class="login-label" for="email">Email</label>
+          <input
+            class="login-input js-email"
+            type="email"
+            id="email"
+            placeholder="Enter your email"
+            required
+          >
+
+          <label class="login-label" for="password">Password</label>
+          <input
+            class="login-input js-password"
+            type="password"
+            id="password"
+            placeholder="At least 6 characters"
+            required
+          >
+
+          <label class="login-label" for="confirm-password">Re-enter password</label>
+          <input
+            class="login-input js-confirm-password"
+            type="password"
+            id="confirm-password"
+            placeholder="Re-enter your password"
+            required
+          >
+
+          <p class="js-error-message login-error"></p>
+
+          <button class="button-primary login-button" type="submit">
+            Create your Amazon account
+          </button>
+        </form>
+      </div>
+
+      <div class="login-divider">
+        <span class="login-divider-text">Already have an account?</span>
+      </div>
+
+      <div class="login-new-account">
+        <a href="login.html" class="button-secondary login-button login-anchor-btn">
+          Sign in
+        </a>
+      </div>
+    </div>
+
+    <script type="module" src="scripts/register.js"></script>
+  </body>
+</html>
